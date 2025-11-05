@@ -1,0 +1,94 @@
+:root {
+      --bs-primary: #f00; /* Replace with your desired color code (e.g., red) */
+      --btn-primary:blue;
+    }
+
+    .primary-new{
+        background-color: #286e28 !important;
+        border-color: #286e28 !important;
+        
+    }
+
+body{
+    background-image: url();
+}
+/* the following is for the font style*/
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-serif-text-regular {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.dm-serif-text-regular-italic {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.h1 {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #286e28;
+}
+
+.h4{
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #001300;
+}
+.p {
+    font-family: "Limelight", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #001300;
+}
+
+/*link style*/
+a:hover {
+  color: #f00;
+}
+
+a{
+  background-color:aqua;
+  /*using Var to select a variable color! */
+  color: var(--btn-primary);
+  text-decoration:none;
+  padding: 8px 16px;
+}
+
+.card {
+  position: relative;
+  width: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(100%);
+  transition: filter 0.3s ease;
+}
+
+.card-content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  z-index: 2;
+  background-color: antiquewhite;
+}
+
+@media (max-width:576px) {
+  body{
+    background-color: antiquewhite;
+
+  }
+}
